@@ -1,0 +1,40 @@
+.avatar {
+width: 25px;
+height: 25px;
+border-radius: 50%;
+}
+.header{
+    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+    height: 90px ;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px ;
+}
+ul{
+margin: 0px;
+padding: 0px; 
+  list-style: none; 
+}
+.links{
+    display: flex;
+   
+    
+
+}
+.links-item{
+    margin-right:20px ;
+    
+}
+.links-item:last-child{
+    margin-right:0px ;
+}
+.link{
+    color:gray;
+    transition: all ease-in-out 0.3s;
+    text-decoration: none;
+}
+.link:hover{
+    color: black;
+}    
