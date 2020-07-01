@@ -1,0 +1,49 @@
+.content.content--abaut{
+    display: flex;
+}
+.photo-wraper {
+width:40% ;
+}
+.photo{
+    max-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+}
+.info-wraper{
+    min-height: 100%;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+}
+.info-title{
+    font-size: 32px;
+}
+.info-description{
+    color:darkgrey;
+    margin-bottom:20px;
+}
+.info{
+    margin-bottom: 40px;
+}
+.info-cell{
+    line-height: 22px;
+}
+.info-cell:first-child{
+    font-weight: bold;
+    padding-right:20px ;
+}
+.info-cell:nth-child(2){
+    color: darkgrey;
+
+}
+.info-works{
+    color: white;
+    background-color: darkred;
+    padding: 12px 7px;
+    border-radius:20px;
+    font-weight: bold ;
+    text-decoration: none;
+}
